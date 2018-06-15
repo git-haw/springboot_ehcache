@@ -1,0 +1,277 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, tt, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: medium none;
+    color: #111111;
+    font-style: normal;
+    font-weight: normal;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+}
+body {
+    background-color: #f5f5d5;
+    color: #111111;
+    font-family: Georgia,serif;
+    font-size: 62.5%;
+    letter-spacing: -0.01em;
+    line-height: 1.8em;
+    margin: 0;
+    padding: 0;
+    width: 98%;
+    word-spacing: 0.2em;
+}
+a{
+    color: #556677;
+    font-size: 16px;
+    font-family: Arial, "Microsoft Himalaya", 黑体, 宋体, sans-serif;
+    font-style: normal;
+    text-decoration: none;
+}
+h1 {
+    font-size: 2.88em;
+}
+h3 {
+    font-size: 1.87em;
+}
+ul li {
+    list-style-type: square;
+}
+p, li {
+    font-size: 1.6em;
+    line-height: 220%;
+}
+#content a:link {
+    color: #556677;
+}
+#content a:visited {
+    color: #556677;
+}
+#content a:hover {
+    color: #665544;
+}
+#container{
+    background-color: #f5f5d5;
+    margin:0 auto;
+    padding: 1em;
+}
+body.one-column #container{
+    max-width: 960px;
+    min-width: 640px;
+    width: 65%;
+}
+body.two-columns #container{
+    max-width: 1260px;
+    min-width: 780px;
+    width: 85%;
+}
+body.one-column #content #alpha div.asset-nav div.entry-location li {
+    display: block;
+    list-style-type: none;
+}
+#container-inner{
+}
+.clear{
+    clear: both;
+}
+#header {
+    border-bottom: 1px solid #d3d3d3;
+    float: left;
+    height: 5em;
+    margin: 1em;
+}
+#header {
+    width: 100%;
+}
+#header h1, #header div#header-name {
+    float: left;
+}
+#header h1, #header #header-description, #header div#header-name {
+    color: #556677;
+    font-size: 1.8em;
+    margin-top: 0.9em;
+}
+#search {
+    float: right;
+    padding-top: 1.5em;
+}
+#search-input{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 2em;
+    width: 13.333em;
+    height: 1.333em;
+    font-family: "Trebuchet MS",Arial,"Lucida Grande",Verdana,Lucida,Helvetica,sans-serif;
+    font-size: 1.5em;
+    border: 1px solid #d3d3d3;
+}
+#search-a {
+    float: right;
+    width: 27px;
+    height: 28px;
+    background-color: transparent;
+    background-image: url("/static/image/blog/material.png");
+    background-position: -117px -53px;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: -27px;
+}
+#content{
+    clear: both;
+    margin: 1.5em 1em 1em;
+}
+#content-inner{
+}
+body.two-columns #content #alpha #homepage ul{
+    font-style: normal;
+    font-family: normal;
+    margin-left: 4em;
+}
+body.two-columns #content #homepage ul li{
+    font-size: 1.6em;
+    line-height: 220%;
+}
+body.two-columns #content #alpha {
+    float: left;
+    margin-left: 3%;
+    max-width: 740px;
+    min-width: 470px;
+    width: 64%;
+}
+body.one-column #content #alpha {
+    padding-top: 0.5em;
+}
+body.one-column #alpha {
+    width: 100%;
+}
+#alpha-inner{
+
+}
+body.one-column #alpha h1 {
+    font-family: "Trebuchet MS",Arial,"Lucida Grande",Verdana,Lucida,Helvetica,sans-serif;
+    line-height: 250%;
+}
+body.two-columns #content #alpha #homepage h3 {
+    font-size: 2.2em;
+    font-weight: 500;
+    margin-top: 2em;
+}
+#content h1, h2, h3 {
+    border-bottom: 1px solid #d3d3d3;
+    color: #000000;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    margin: 0.4em 0 0.2em;
+    padding: 0 0 0.2em;
+}
+
+body.two-columns #content #alpha #homepage ul li, body.two-columns #content #alpha #homepage ul li span {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#footer{
+    border-top: 1px solid #d3d3d3;
+    clear: both;
+    color: #d3d3d3;
+    margin: 0 1em;
+}
+#footer p{
+    color: gray;
+    text-align: right;
+    margin: 0 2em;
+    padding: 0.3em;
+}
+body.one-column #content #alpha div.asset-nav{
+    background: #aad2f0 -moz-linear-gradient(center top , #aad2f0 5%, #8bc1ed 100%) repeat scroll 0 0;
+    border: 1px solid #dcdcdc;
+    border-radius: 1em;
+    box-shadow: 0 1px 0 0 #eeeeee inset;
+    color: #fcb297;
+    font-weight: bold;
+    margin: 0 0 1em;
+    padding: 0.3em 0.5em;
+    text-shadow: 1px 1px 0 #eeeeee;
+}
+body.one-column #content #alpha div.asset-nav::after{
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+}
+body.one-column #content #alpha div.asset-nav *{
+    display: inline;
+}
+body.one-column #content #alpha div.asset-nav div.entry-location{
+    float: right;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 20em;
+}
+
+body.two-columns #content #beta {
+    border-radius: 20px;
+    float: right;
+    margin-bottom: 1em;
+    margin-right: 3%;
+    max-width: 300px;
+    min-width: 180px;
+    overflow: hidden;
+    padding: 0.6em;
+    width: 24%;
+}
+#beta .module {
+    background-color: #deebf7;
+    border-radius: 1em;
+    padding: 1em;
+}
+.module {
+    margin-bottom: 1em;
+}
+.module h2 {
+    font-size: 1.8em;
+}
+body.two-columns #content .module-content ul {
+    list-style-type: square;
+}
+.module p, .module ul {
+    margin-left: 1em;
+}
+body.two-columns #content #beta p, body.two-columns #content #beta li {
+    font-size: 1.44em;
+}
+.module li {
+    margin-left: 1em;
+}
+body.one-column #content #alpha p {
+    line-height: 180%;
+    margin-left: 0.8em;
+    margin-top: 1em;
+}
+body.one-column #content #alpha .asset-content h2, body.one-column #content #alpha .asset-content h3 {
+    margin-top: 1.5em;
+}
+body.one-column #content #alpha div.asset-content blockquote {
+    background-color: #f5f2f0;
+    border-color: #e0dfcc;
+    border-radius: 1em;
+    border-style: solid;
+    border-width: 0.3em;
+    font-family: Consolas,Monaco,"Andale Mono",monospace;
+    margin: 2em;
+    overflow: auto;
+    padding: 1em;
+    text-shadow: 0 1px white;
+}
+body.one-column #content #alpha .asset-content ul, body.one-column #content #alpha .asset-content ol, body.one-column #content #alpha .asset-content table {
+    margin-left: 4em;
+}
+body.one-column #content #alpha p code {
+    background-color: pink;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 120%;
+    margin: auto 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}

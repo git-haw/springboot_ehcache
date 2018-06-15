@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+<div id="container">
+    <div id="container-inner">
+        <div id="content">
+            <p th:text="${user.username}"></p>
+        </div>
+    </div>
+</div>
+<script type="application/javascript" src="/static/primary/core/js/jquery-3.1.1.min.js"></script>
+<script type="application/javascript"
+        src="/static/primary/plugins/bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
+<script src="/static/primary/core/js/require.js" data-main="/static/primary/customer/js/main"></script>
+<script type="text/javascript">
+//    require(['demo']);
+</script>
+</body>
+</html>

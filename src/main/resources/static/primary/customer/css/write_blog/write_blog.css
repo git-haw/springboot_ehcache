@@ -1,0 +1,32 @@
+body{
+    background-color: #f5f5d5;
+    font-size: 16px;
+    line-height: 1.8em;
+}
+#container{
+    width: 60%;
+    margin:0 auto;
+}
+#content{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+#main{
+
+}
+#main-input{
+    margin: 30px;
+}
+#main-input .form-group{
+    padding-bottom: 50px;
+}
+#main-code{
+
+}
+#main-submit{
+    text-align: center;
+    padding: 30px;
+}
+#summernote{
+
+}
